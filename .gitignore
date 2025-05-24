@@ -1,6 +1,7 @@
 # chosen by the user
 *.parquet
 **/ny_taxi_postgres_data/*
+**/secrets/*
 
 # created by data-engineer-zoomcamp
 .DS_Store
