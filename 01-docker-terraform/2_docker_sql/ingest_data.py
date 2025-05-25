@@ -26,7 +26,7 @@ def main(params):
     print("Finished creating table")
 
     print("Inserting data...")
-    taxi_df.to_sql(name=f'{table_name}', con=engine, if_exists='replace')
+    taxi_df.to_sql(name=f'{table_name}', con=engine, if_exists='append')
     print("Finished inserting data")
 
 if __name__ == '__main__':
