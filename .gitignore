@@ -2,6 +2,7 @@
 *.parquet
 **/ny_taxi_postgres_data/*
 **/secrets/*
+airflow.cfg
 
 # created by data-engineer-zoomcamp
 .DS_Store
